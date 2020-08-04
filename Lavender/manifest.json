@@ -1,0 +1,10 @@
+﻿{
+  "Name": "Lavender",
+  "Author": "Blueberry Head",
+  "Version": "1.0.0",
+  "Description": "Love",
+  "UniqueID": "vpanini.Lavender",
+  "EntryDll": "Lavender.dll",
+  "MinimumApiVersion": "3.0.0",
+  "UpdateKeys": []
+}
