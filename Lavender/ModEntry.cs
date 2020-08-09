@@ -16,11 +16,11 @@ namespace Lavender
 
         private void OnSaveLoaded(object sender, SaveLoadedEventArgs args)
         {
-            // get the internal asset key for the map file
+            // get the internal asset key for the map file + indoor house
             string mapAssetKey = this.Helper.Content.GetActualAssetKey("assets/Lavender.tmx", ContentSource.ModFolder);
             string roomAssetKey = this.Helper.Content.GetActualAssetKey("assets/LavenderHouse.tmx", ContentSource.ModFolder);
 
-            // add the location
+            // add the locations
             GameLocation locationOutdoor = new GameLocation(mapAssetKey, "Lavender") { IsOutdoors = true, IsFarm = false };
             GameLocation locationIndoor = new GameLocation(roomAssetKey, "LavenderHouse") { IsOutdoors = false, IsFarm = false };
 

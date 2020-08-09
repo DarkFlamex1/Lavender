@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" width="25" height="25" tilewidth="16" tileheight="16" infinite="0" nextlayerid="9" nextobjectid="22">
+ <editorsettings>
+  <export target="LavenderHouse.tmx" format="tmx"/>
+ </editorsettings>
+ <properties>
+  <property name="DayTiles" value="Front 19 1 256 Front 19 2 288 Front 2 1 225 Front 2 2 257 Front 5 1 225 Front 5 2 257"/>
+  <property name="Doors" value="12 14 1 120 17 6 1 120 11 18 1 120"/>
+  <property name="NightTiles" value="Front 19 1 1253 Front 19 2 1285 Front 2 1 1222 Front 2 2 1254 Front 5 1 1222 Front 5 2 1254"/>
+  <property name="Warp" value="4 24 Town 10 86"/>
+ </properties>
+ <tileset firstgid="1" name="1" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source="townInterior.es-ES.png" width="512" height="1088"/>
+ </tileset>
+ <tileset firstgid="2177" name="2" tilewidth="16" tileheight="16" tilecount="128" columns="32">
+  <image source="townInterior_2.png" width="512" height="64"/>
+ </tileset>
+ <tileset firstgid="2305" name="p" tilewidth="16" tileheight="16" tilecount="32" columns="4">
+  <image source="paths" width="64" height="128"/>
+ </tileset>
+ <layer id="1" name="Back" width="25" height="25">
+  <data encoding="base64" compression="zlib">
+   eJy9lMFKw0AQhjdbpesjqKBCD+orqKDgofUVSsGCBwt9AdFCPVafwqvVh/BWI76FB5OLdy2oM2aH/G5Su8bUgY+Z3STzz0w2UUqp/SmUYZyn5lBmftGYZQ9sRz9Qlm0ESj2RXw++U7NsejDN6nRPBXKjnk9+X40qUIG4MSON6j9rlGUvEzgI0lhsSNx4cuuhYWag0QVOiLrJ1/A11BgRIXHv+GOT+Geo44x4oP1BDk177RIQi4iYeCXeiLFdR+BFowecOmvZG9j8IWjw3BeIRWKJWCbmab9hkn25zrZt6UGM7IDG0OmD86GPbSxrnKOyHpFrLZXM7JqeuwCNbpBF6sd5sZd+3H2uJbYaMrcteOe7Wqk9nfWRnePjXELHpLGBOjomnWsL3hNqHOqEd7rng+ukuE1wKDmZ2K4Dzz6aoNHXCSvEKrFGnOdohKCBfaB3zxn20dZZz7nkm5R6OVeR31jf1v31sEX6wDPDdYaqmIb0yfVf6XTNuUYqnbuc47/8jrmfO52u3bmzRtFZuf2gxiR+Y5+/Ualm
+  </data>
+ </layer>
+ <objectgroup id="2" name="Back"/>
+ <layer id="3" name="Buildings" width="25" height="25">
+  <data encoding="base64" compression="zlib">
+   eJy1lLtOgjEUx9sCkyZe38BBR28JRCcwGKPsoE7eGJSdmy6wiHFQjL6BizoYN00cXT70EXwBHPQR/DdtQ2m+Wz/CSX5t056e/9fTno8SQmgAg5gZZ4oRMs3EeMaHKDoZOV5C/GWpsYJ+FawRd2w19sEByCNmAWyDHbDLxHwQYTQa4A+DMmJWQBXUQJ1ZfrCPxrBNaTxg8AiehiDKQ7bQOKADPoekoWzEJf9BtROWuwQhNwYpqZEEt4meppuvF3yf0tgEWwYFGTMPctq53Hy9yGnnOAYnYBy5mgCTYE7mrQxKmobyDUNJ07gA1xjMI+4CWAQb2t1cypylpC+3c6y3mKirBvomeJOXe4S+SMU+pfHLfX3qzWEiZwVvF09TGmMx5Cnm7tNB/C4TOauAKrgPiJtG0Azt14j6bTa+jsV/SX/zHwFC77Tn2w1Ze+b8KZozuVBDX9c0XzH+pv17Rw0dtabXJL+LJImWqyvEb3touNWk7X+E2zPivxgaWbmeRbNOxZviVrY4g25mntrau1P1NBsXc19xew39TGk5l9XWTPuJoKHbnuybmu4harNo1OcgGtSl97vHsPYPm5hP6Q==
+  </data>
+ </layer>
+ <objectgroup id="4" name="Buildings">
+  <object id="1" name="TileData" x="32" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;SamHouse.1&quot;"/>
+   </properties>
+  </object>
+  <object id="2" name="TileData" x="112" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;SamHouse.2&quot;"/>
+   </properties>
+  </object>
+  <object id="5" name="TileData" x="96" y="192" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;SamHouse.4&quot;"/>
+   </properties>
+  </object>
+  <object id="6" name="TileData" x="224" y="192" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;SamHouse.5&quot;"/>
+   </properties>
+  </object>
+  <object id="7" name="TileData" x="240" y="192" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;SamHouse.6&quot;"/>
+   </properties>
+  </object>
+  <object id="8" name="TileData" x="256" y="192" width="16" height="16">
+   <properties>
+    <property name="Action" value="NPCMessage Sam &quot;Data\ExtraDialogue:SamHouse_Sam_Trash/Strings\Locations:SamHouse_Sam_Trash&quot;"/>
+   </properties>
+  </object>
+  <object id="9" name="TileData" x="272" y="192" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;SamHouse.7&quot;"/>
+   </properties>
+  </object>
+  <object id="10" name="TileData" x="288" y="192" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;SamHouse.8&quot;"/>
+   </properties>
+  </object>
+  <object id="11" name="TileData" x="304" y="192" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;SamHouse.9&quot;"/>
+   </properties>
+  </object>
+  <object id="12" name="TileData" x="144" y="224" width="16" height="16">
+   <properties>
+    <property name="Action" value="Letter &quot;SamHouse.10&quot;"/>
+   </properties>
+  </object>
+  <object id="13" name="TileData" x="192" y="224" width="16" height="16">
+   <properties>
+    <property name="Action" value="Door Sam"/>
+   </properties>
+  </object>
+  <object id="14" name="TileData" x="368" y="256" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;SamHouse.11&quot;"/>
+   </properties>
+  </object>
+  <object id="15" name="TileData" x="240" y="272" width="16" height="16">
+   <properties>
+    <property name="Action" value="playSound drumkit0"/>
+   </properties>
+  </object>
+  <object id="16" name="TileData" x="256" y="272" width="16" height="16">
+   <properties>
+    <property name="Action" value="playSound drumkit1"/>
+   </properties>
+  </object>
+  <object id="17" name="TileData" x="288" y="272" width="16" height="16">
+   <properties>
+    <property name="Action" value="playSound toyPiano"/>
+   </properties>
+  </object>
+  <object id="18" name="TileData" x="304" y="272" width="16" height="16">
+   <properties>
+    <property name="Action" value="playSound crystal"/>
+   </properties>
+  </object>
+  <object id="19" name="TileData" x="176" y="288" width="16" height="16">
+   <properties>
+    <property name="Action" value="Door Vincent"/>
+   </properties>
+  </object>
+  <object id="20" name="TileData" x="192" y="336" width="16" height="16">
+   <properties>
+    <property name="Action" value="Starpoint 4"/>
+   </properties>
+  </object>
+  <object id="21" name="TileData" x="192" y="352" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;SamHouse.12&quot;"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="5" name="Front" width="25" height="25">
+  <data encoding="base64" compression="zlib">
+   eJy1VT0zQ0EU3V1JY5QKLUNjdEaRMjLRGR8F4qOIMCONIRUlUUUKgyaZURCDiV9Ah6Gl1NL6E86dt+tt1r6PjTgzZ/bet3vveXd373ucMSbALgcmQO7AfnAA/GQ+dNuGQXDIQSMt4wT3c+h2EB4d6lIab3COYuRup650cGgkTpKMnSY9OxtDowLnEKy2WUuURhHGJjgFTv6ThsKXJf8leBXBa/AmROMcfACfDb5IDbo/CWnTepdeUnHUH8PSTuP8ahjrzD/LY4wjzLs3+to5CC4YdY/Cz4Hz8rmKo72axrMZcBa8g3+vxb3LMct+38EdmWscxWWEZ+8aunrctjHHRatPe/ak+RuYLwqvr1YxFsC6zJHFOKFsqfFKa42cOprC2zPav1Twsh8UkH/N0AjDLfJXNP0cuB4RU0b+AwcNG3rBRsy1SqMZsk8mqF/KMi6TDF97xn2Njxi9R++dku/FZNwy4lZk7CLGJS1PLcZe0Vw38/uJ7hSdBd2vnpA4Wx5au4W9Kgn7HPXlGG/tSZqj78MFi/eNoTxV5G8EaBD6LH3lAlvNJR69jy7Qa1b3Ub87eerjP9ahQ723+heQvwdjv4MaeebVU5a+7VzVObYL/b/SSXwDlzJezA==
+  </data>
+ </layer>
+ <objectgroup id="6" name="Front" visible="0"/>
+ <layer id="7" name="Paths" width="25" height="25" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJztVIsKwyAMrGudyf//cCcscL1FZ4psg/VAtHl4SZq4LBfOQvW4/xqkE9ftobvDEtgRmBuezT+DX10r2BSqT/2u5zJYr0J+LPdyTBTXu7Xp0Y/lCCGb/IH/Plqrf+WQRl/MAverx8GzlJ/9arGZvjePOCseB8sS9bjXrwbR15nw5sO7I1pTtOeZWht3oc/IW9qLqaWL5tGLw7tL6C0cwZk8ovg2x2gtohzW0xqod5QDkSbyzMYOijYHTg==
+  </data>
+ </layer>
+ <objectgroup id="8" name="Paths" visible="0"/>
+</map>
