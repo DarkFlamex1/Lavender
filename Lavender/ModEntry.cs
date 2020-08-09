@@ -18,10 +18,14 @@ namespace Lavender
         {
             // get the internal asset key for the map file
             string mapAssetKey = this.Helper.Content.GetActualAssetKey("assets/Lavender.tmx", ContentSource.ModFolder);
+            string roomAssetKey = this.Helper.Content.GetActualAssetKey("assets/LavenderHouse.tmx", ContentSource.ModFolder);
 
             // add the location
-            GameLocation location = new GameLocation(mapAssetKey, "Lavender") { IsOutdoors = true, IsFarm = false };
-            Game1.locations.Add(location);
+            GameLocation locationOutdoor = new GameLocation(mapAssetKey, "Lavender") { IsOutdoors = true, IsFarm = false };
+            GameLocation locationIndoor = new GameLocation(roomAssetKey, "LavenderHouse") { IsOutdoors = false, IsFarm = false };
+
+            Game1.locations.Add(locationOutdoor);
+            Game1.locations.Add(locationIndoor);
         }
 
         /// <summary>Get whether this instance can load the initial version of the given asset.</summary>
