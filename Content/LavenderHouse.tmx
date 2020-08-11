@@ -10,23 +10,23 @@
   <property name="Warp" value="4 24 Town 10 86"/>
  </properties>
  <tileset firstgid="1" name="1" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
-  <image source="../../StardewData/townInterior.es-ES.png" width="512" height="1088"/>
+  <image source="townInterior.es-ES.png" width="512" height="1088"/>
  </tileset>
  <tileset firstgid="2177" name="2" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
-  <image source="../../StardewData/townInterior_2.png" width="512" height="64"/>
+  <image source="townInterior_2.png" width="512" height="64"/>
  </tileset>
  <tileset firstgid="4353" name="p" tilewidth="16" tileheight="16" tilecount="32" columns="4">
-  <image source="../../StardewData/paths.png" width="64" height="128"/>
+  <image source="paths.png" width="64" height="128"/>
  </tileset>
  <layer id="1" name="Back" width="25" height="25">
   <data encoding="base64" compression="zlib">
-   eJy9kz1OAzEQhceOUJwjACIgpQCuAOJHokg4BZFSUOQCFJGSEnEKjkIHNFyCgk1DD0jAM+sRs7vEP+DwpE/jdTzzZpxdIqKTADlk6/RqyPq891cP3ww5PEYecmlHET0ibqsqPcduBCH1caYlaku/mPqxHm1BS6wHS/Jo/7NHLj0v4FR9r1kPiYQ8zBI8xoIL0Dc/e8RKnr0F9+CuFs9NGZ9EHwdgI4A9c4XcrvAowBy8gFfw5p4LEaVHCix77x2wCtbAOljB/sCU+/w7ubz9QN1LU84hPQpXT8a5W/OzvEdyMWWOsWrC/cv7spHnKSLq7wmPI010rJvRJ+uf4nGmS96R92H7xHoIFn3mKnKOQ5Ez1SVdsAm2wCzgYVT1feA4oSpyjqFuRp9Hqqau769kx8zzf/zGg+e0/V/r6veQy4Nl57kR/ee8K1a9f+UhRZ8mh4Kq
+   eJy9k01OwzAQhceuUMwRAPEjdQFcAVRAYlE4BZVYsMgFWCC1R+Eo7IANl2BBumEPSMAz8YiJkzhxa3jSp+c4sd+MkxARnXaQQnafoYfcn+eWzQj1kCLjMkAq7SmiZ/iuqjJU9bk2ujTGMwPxfFOeZX+JHJuRCQYR9cf0kTXwHxlZj7V99drCufods54i6cowf5CRC67B2DRnhJR7sO7BI3jw/MqU/iLqGIHNACMPVgHm4A28gw93XQiXGTGw7LmvgjWwDjbACubPTDnP98mtO1wgo3D7SZ+7MV/LcyTnMRm5qsP1y/Oyzv0UPfY/EBnHmuhE1z0kmx+TcaFLPrHuy9aJ8QS0/eaqZx9HYs1Ul2yBbbADZh0ZRlW/B/YbqiL7mOi6hzJiNXV1/yx2zALvY5EM7tPWf6ur/0OqDJbt507Un/KsWH79KkCMvgGy4YLM
   </data>
  </layer>
  <objectgroup id="2" name="Back"/>
  <layer id="3" name="Buildings" width="25" height="25">
   <data encoding="base64" compression="zlib">
-   eJytk7tOwzAUhh1XnUDi+gYwMHKT6AqoEgI2kFqJqWWDbiAVxES7UMQARfAGMBQGBGVgYGRJWaBdeYEuXB+AP7KtuJaT2E2P9DUn9u/zx6e2QwhxIogTap0RSsgoZfmYxBrG1qn/3o3PAs9nUGeWe9Qx8QgWke9gbJeyXGDrkQeb4A0v76AJWmCDsvEoxg08SuALyTf4Ab/gDxxQyw8O8TCJDNVj41FDcgNuA0yLVI+pRwU/LmiAV4ON9Vn2UC6pWxt1d0y5TBJyrpDiHnPgIul76rQqD9DV+TrhsQxWFLK8ZgasSvvSaVWaoMXXCY8tsA0G0ashMAwmeN+KoCB5CK0JBcnjGJwhmUTdKTANlqT/5oT3LMW1XhxhvkLZvSrhWZb0Vxi7dtg64fHpaUPOiktZz7LBko7IoWieHybhMZBAnxJ6fQP125T1bA/se98Z4XHo7U3xsA2bdULrWtwp+cy/RBg9O7623eXdC4snCD6cTm2/4hPXQ61zivpVjUeQl+k3yPo71L9XPNI92IMcap+qyrmLW19eO8/H0pq5uD4icvxZjqgfx8PRPHvh8Q+3TVKl
+   eJytk7lOAzEQhr1eQgMS4XgDKCi5JNJyLEJAB1IiUXEWQAdSkOiShiAKCII3oAEKBKGgoKTZ0EDS0gFFGs4H4I9sE2N5D2cz0pcde/+Zf3eytgghVgBRQu3TSQnpoizvlpjF3hytrevxGeX5IPoMcY8CbtyAMeSb2NuiLBeYeiyCJfCIxRMogTKYp2w/iJ4QHhnwgeQTfIFv8AN2qOED+3iEiSTVY+JxhuQcXHiYpqmesB45/LigCB5CvFiL4QzllrraoLMTlpMYIUcKCe4xDI5jNU+dVuUaugKvEx5TYFohxXsmwYz0XjqtSgmUeZ3wWAPrII5ZtYMO0MvnlgYbkofQevGCulfwRlmd8NgDh0j6sN8PBsCk9N/s85kluLYau7ifo+xcZXDNcn2TTUgMNNusTni8V7U+34pL2cxS3pK/GEdvB0zYbC082rCO2/qaIvpXKJvZNt879fFYRp8VsKp4mIZJndC6BmdK/ubvA4zurJq2UufZ84tbCJ6t/9pWxSeqh9rnAP3zGg8vr7DPIOsv0f9K8XAa8A5yqHPKW/7Pahpy7QjfczT3ovqIWODXbED/KB6W5toIj1+l5VKx
   </data>
  </layer>
  <objectgroup id="4" name="Buildings">
@@ -38,7 +38,7 @@
  </objectgroup>
  <layer id="5" name="Front" width="25" height="25">
   <data encoding="base64" compression="zlib">
-   eJy1Vb1OwzAQPpvmDXgBECyIF2AsVUbEz8ZYEBJdEPQNoIKhdEDAUiQGKAJUngA2QGWFkRVWXoLvFJu4IY7tqvmkTz7Hd/5y53MiiEiCEwGsgCKAU+A0+E0pTDsPM+BsgEZVxUmR7mHaNrwE5KU1PjA58dh7lLyq9lAnziKi8yixYw+NNibHYGfEXFwaDRg74DK45KHxk+Pjk4ct9ga8dfAOvC/QuAKfwUGGb0qD+6eibPYPuUs6ju/HnLKrOL8uxgtKz/IU4zwlfWP6+kDHca1W8IKr4Br4iPmT4fepxpjsPbiI5Goyf82M28uchcjEcM1ejfk21hsyuVcbGDcN/0M8OxLDGu/sa3kPRl8mNWMs2N3+UGfdjEYRHrB/29BfB7ccMfvY/yBAIw+TYM/TV2v0C+qUBd+XloqrRcW+lyLV+Aq4ey217sq/61Gr2LGHb421xi5q1ZT/14rA34dr8vvGsEYH+/cCNUKQl3NTjFfDzFn3o+6dMqBz0v+CMlCn4f4sA+Z/ZZz4BVutTwQ=
+   eJy1VTtOAzEQHTvJDbgAUUKBuMQSbRnxuQEgJNIgyBUiKEIKBDRBooAgQOEE0AGCFkpaaLkEz1pb6zj22o6yT3ryeD3jtzMe7zIi4mAlglWQRXARrIO/lEO3bWiAzQiNRMZxlu+h2y68RuSlNL4wOQ3Ye5a8EneoF+c1ootaZqcBGn1MTsDBjLn4NDow9sE1sB2g8WfxCcnDFXsL3nl4Dz4UaFyDL+C7wQ+pIfqnKm3hH3OXVJy4H8vSTnB+Q4yXlJ/lGcYVyvpG9w2BihO1WscLboCb4BPmz5rftxxTcvfgKpJrcfuaHndonAUzYkTN3rT5HtY7PLtX2xh3NP8jPDtmkxqfwtfxHgJjntUsBA0cRBNcqkzn4cIj9u8b+rthcsEaNiyAo0iNcUGdTIj70pNxLU/9rliu8RNx93py3Zf/0DhzG1LPHqE1VhoHqFWXT68VQXwfbijsGyM0Bth/FKkRA1vOXTZfDT1n1Y+qd8qAykn9C8rAFk32ZxnQ/yvzxD/X4U0g
   </data>
  </layer>
  <objectgroup id="6" name="Front" visible="0"/>

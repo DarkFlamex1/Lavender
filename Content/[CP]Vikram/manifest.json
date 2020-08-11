@@ -1,0 +1,13 @@
+{
+  "Name": "LavenderVikram",
+  "Author": "BlueberryHead",
+  "Description": "Created by MissCoriel's NPC Creator! Vikram NPC -=Created with MissCoriel's NPC Creator=-",
+  "Version": "1.0.0",
+  "UniqueID": "Blueberry.LavenderVikram",
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+  "UpdateKeys": [
+    "Nexus: "
+  ]
+}

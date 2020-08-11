@@ -8,10 +8,10 @@
   <property name="Warp" value="60 15 Town 0 68 60 16 Town 0 69"/>
  </properties>
  <tileset firstgid="1" name="Paths" tilewidth="16" tileheight="16" tilecount="32" columns="4">
-  <image source="../../StardewData/paths.png" width="64" height="128"/>
+  <image source="paths.png" width="64" height="128"/>
  </tileset>
  <tileset firstgid="33" name="untitled tile sheet" tilewidth="16" tileheight="16" tilecount="1975" columns="25">
-  <image source="../../StardewData/spring_outdoorsTileSheet.es-ES.png" width="400" height="1264"/>
+  <image source="spring_outdoorsTileSheet.es-ES.png" width="400" height="1264"/>
   <tile id="150">
    <properties>
     <property name="Spawnable" value="t"/>

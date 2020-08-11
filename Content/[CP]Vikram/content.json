@@ -1,0 +1,51 @@
+{
+  "Format": "1.10.0",
+  "Changes": [
+    {
+      "LogName": "NPC Manifestation",
+      "Action": "EditData",
+      "Target": "Data/NPCDispositions",
+      "FromFile": null,
+      "Entries": {
+        "Vikram": "adult/polite/outgoing/positive/male/non-datable/Tess/Town/winter 28//LavenderHouse 21 16/Vikram"
+      }
+    },
+    {
+      "LogName": "NPC Gift Tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "FromFile": null,
+      "Entries": {
+        "Vikram": "OOh my god! I've wanted this forever! Thank You sooo much!!!//This is great thank you so much!//Woah, that's cool thank you!//I really appreciate this gift!//I really appreciate this gift!/ "
+      }
+    },
+    {
+      "LogName": "NPC Sprite",
+      "Action": "Load",
+      "Target": "Characters/Vikram",
+      "FromFile": "assets/img/Vikram.png",
+      "Entries": null
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Vikram",
+      "FromFile": "assets/dialogue/Dialogue.json",
+      "Entries": null
+    },
+    {
+      "LogName": "NPC Portrait",
+      "Action": "Load",
+      "Target": "Portraits/Vikram",
+      "FromFile": "assets/img/portrait.png",
+      "Entries": null
+    },
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/Vikram",
+      "FromFile": "assets/schedules/Schedule.json",
+      "Entries": null
+    }
+  ]
+}
