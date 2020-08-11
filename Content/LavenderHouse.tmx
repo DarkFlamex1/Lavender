@@ -5,7 +5,7 @@
  </editorsettings>
  <properties>
   <property name="DayTiles" value="Front 19 1 256 Front 19 2 288 Front 2 1 225 Front 2 2 257 Front 5 1 225 Front 5 2 257"/>
-  <property name="Doors" value="12 14 1 120 17 6 1 120 11 18 1 120"/>
+  <property name="Doors" value="12 14 1 120"/>
   <property name="NightTiles" value="Front 19 1 1253 Front 19 2 1285 Front 2 1 1222 Front 2 2 1254 Front 5 1 1222 Front 5 2 1254"/>
   <property name="Warp" value="4 24 Town 10 86"/>
  </properties>
@@ -20,115 +20,25 @@
  </tileset>
  <layer id="1" name="Back" width="25" height="25">
   <data encoding="base64" compression="zlib">
-   eJy9lMFKw0AQhjdbpesjqKBCD+orqKDgofUVSsGCBwt9AdFCPVafwqvVh/BWI76FB5OLdy2oM2aH/G5Su8bUgY+Z3STzz0w2UUqp/SmUYZyn5lBmftGYZQ9sRz9Qlm0ESj2RXw++U7NsejDN6nRPBXKjnk9+X40qUIG4MSON6j9rlGUvEzgI0lhsSNx4cuuhYWag0QVOiLrJ1/A11BgRIXHv+GOT+Geo44x4oP1BDk177RIQi4iYeCXeiLFdR+BFowecOmvZG9j8IWjw3BeIRWKJWCbmab9hkn25zrZt6UGM7IDG0OmD86GPbSxrnKOyHpFrLZXM7JqeuwCNbpBF6sd5sZd+3H2uJbYaMrcteOe7Wqk9nfWRnePjXELHpLGBOjomnWsL3hNqHOqEd7rng+ukuE1wKDmZ2K4Dzz6aoNHXCSvEKrFGnOdohKCBfaB3zxn20dZZz7nkm5R6OVeR31jf1v31sEX6wDPDdYaqmIb0yfVf6XTNuUYqnbuc47/8jrmfO52u3bmzRtFZuf2gxiR+Y5+/Ualm
+   eJy9kz1OAzEQhceOUJwjACIgpQCuAOJHokg4BZFSUOQCFJGSEnEKjkIHNFyCgk1DD0jAM+sRs7vEP+DwpE/jdTzzZpxdIqKTADlk6/RqyPq891cP3ww5PEYecmlHET0ibqsqPcduBCH1caYlaku/mPqxHm1BS6wHS/Jo/7NHLj0v4FR9r1kPiYQ8zBI8xoIL0Dc/e8RKnr0F9+CuFs9NGZ9EHwdgI4A9c4XcrvAowBy8gFfw5p4LEaVHCix77x2wCtbAOljB/sCU+/w7ubz9QN1LU84hPQpXT8a5W/OzvEdyMWWOsWrC/cv7spHnKSLq7wmPI010rJvRJ+uf4nGmS96R92H7xHoIFn3mKnKOQ5Ez1SVdsAm2wCzgYVT1feA4oSpyjqFuRp9Hqqau769kx8zzf/zGg+e0/V/r6veQy4Nl57kR/ee8K1a9f+UhRZ8mh4Kq
   </data>
  </layer>
  <objectgroup id="2" name="Back"/>
  <layer id="3" name="Buildings" width="25" height="25">
   <data encoding="base64" compression="zlib">
-   eJy1lLtOgjEUx9sCkyZe30ATHb0lEJ3AYIyygzp5Y1B2brrAIsYBMfoGLupg3DRxdAF9BF8AB30E/03bUJp+V8JJfm3Tnp7/19OejxJCqAeDmBlnihEyzcR4xoUwOik5Xkb8Famxin4NrBM7QTUOwCHIImYO7IBdsMfEvBezPjRq4A+DImKWQBlUQJUF/GAXjWGb0njA4BE8DUGUh2ygaYMO+ByShrIRS/69ascvdzFCbgwSUiMObmM9TZuvE3yf0tgC2wY5GTMLMtq5bL5OZLRznIBTMI5cTYBJMC/zVgQFTUP5+qGgaVyCawwWEHcRLIFN7W6uZM4S0pfbBdYbTNRVDX0dvMnLPUafp2Kf0vjlvi711mYiZzlnF0dTGmMR5Cli9+kgfpeJnJVAGdx7xE0iaIr2a4T9tiC+7QD/Jf3Nf3gIvdOeb9dn7ZnzZ2jO5UIFfVXTfMX4m/bvHTV01Jpek/wu4iRcrpqI33LQsNVk0P8It2fEfzE00nI9jWaDijfFrRjgDLqZeWpp707V01xUzH1Fg2voZ0rKubS2ZtpPCA3d9mVf13SPUJt5oz4H0aCW3u0e/do/x3dQDQ==
+   eJytk7tOwzAUhh1XnUDi+gYwMHKT6AqoEgI2kFqJqWWDbiAVxES7UMQARfAGMBQGBGVgYGRJWaBdeYEuXB+AP7KtuJaT2E2P9DUn9u/zx6e2QwhxIogTap0RSsgoZfmYxBrG1qn/3o3PAs9nUGeWe9Qx8QgWke9gbJeyXGDrkQeb4A0v76AJWmCDsvEoxg08SuALyTf4Ab/gDxxQyw8O8TCJDNVj41FDcgNuA0yLVI+pRwU/LmiAV4ON9Vn2UC6pWxt1d0y5TBJyrpDiHnPgIul76rQqD9DV+TrhsQxWFLK8ZgasSvvSaVWaoMXXCY8tsA0G0ashMAwmeN+KoCB5CK0JBcnjGJwhmUTdKTANlqT/5oT3LMW1XhxhvkLZvSrhWZb0Vxi7dtg64fHpaUPOiktZz7LBko7IoWieHybhMZBAnxJ6fQP125T1bA/se98Z4XHo7U3xsA2bdULrWtwp+cy/RBg9O7623eXdC4snCD6cTm2/4hPXQ61zivpVjUeQl+k3yPo71L9XPNI92IMcap+qyrmLW19eO8/H0pq5uD4icvxZjqgfx8PRPHvh8Q+3TVKl
   </data>
  </layer>
  <objectgroup id="4" name="Buildings">
-  <object id="1" name="TileData" x="32" y="64" width="16" height="16">
-   <properties>
-    <property name="Action" value="Message &quot;SamHouse.1&quot;"/>
-   </properties>
-  </object>
-  <object id="2" name="TileData" x="112" y="64" width="16" height="16">
-   <properties>
-    <property name="Action" value="Message &quot;SamHouse.2&quot;"/>
-   </properties>
-  </object>
-  <object id="5" name="TileData" x="96" y="192" width="16" height="16">
-   <properties>
-    <property name="Action" value="Message &quot;SamHouse.4&quot;"/>
-   </properties>
-  </object>
-  <object id="6" name="TileData" x="224" y="192" width="16" height="16">
-   <properties>
-    <property name="Action" value="Message &quot;SamHouse.5&quot;"/>
-   </properties>
-  </object>
-  <object id="7" name="TileData" x="240" y="192" width="16" height="16">
-   <properties>
-    <property name="Action" value="Message &quot;SamHouse.6&quot;"/>
-   </properties>
-  </object>
-  <object id="8" name="TileData" x="256" y="192" width="16" height="16">
-   <properties>
-    <property name="Action" value="NPCMessage Sam &quot;Data\ExtraDialogue:SamHouse_Sam_Trash/Strings\Locations:SamHouse_Sam_Trash&quot;"/>
-   </properties>
-  </object>
-  <object id="9" name="TileData" x="272" y="192" width="16" height="16">
-   <properties>
-    <property name="Action" value="Message &quot;SamHouse.7&quot;"/>
-   </properties>
-  </object>
-  <object id="10" name="TileData" x="288" y="192" width="16" height="16">
-   <properties>
-    <property name="Action" value="Message &quot;SamHouse.8&quot;"/>
-   </properties>
-  </object>
-  <object id="11" name="TileData" x="304" y="192" width="16" height="16">
-   <properties>
-    <property name="Action" value="Message &quot;SamHouse.9&quot;"/>
-   </properties>
-  </object>
-  <object id="12" name="TileData" x="144" y="224" width="16" height="16">
-   <properties>
-    <property name="Action" value="Letter &quot;SamHouse.10&quot;"/>
-   </properties>
-  </object>
-  <object id="13" name="TileData" x="192" y="224" width="16" height="16">
-   <properties>
-    <property name="Action" value="Door Sam"/>
-   </properties>
-  </object>
   <object id="14" name="TileData" x="368" y="256" width="16" height="16">
    <properties>
     <property name="Action" value="Message &quot;SamHouse.11&quot;"/>
    </properties>
   </object>
-  <object id="15" name="TileData" x="240" y="272" width="16" height="16">
-   <properties>
-    <property name="Action" value="playSound drumkit0"/>
-   </properties>
-  </object>
-  <object id="16" name="TileData" x="256" y="272" width="16" height="16">
-   <properties>
-    <property name="Action" value="playSound drumkit1"/>
-   </properties>
-  </object>
-  <object id="17" name="TileData" x="288" y="272" width="16" height="16">
-   <properties>
-    <property name="Action" value="playSound toyPiano"/>
-   </properties>
-  </object>
-  <object id="18" name="TileData" x="304" y="272" width="16" height="16">
-   <properties>
-    <property name="Action" value="playSound crystal"/>
-   </properties>
-  </object>
-  <object id="19" name="TileData" x="176" y="288" width="16" height="16">
-   <properties>
-    <property name="Action" value="Door Vincent"/>
-   </properties>
-  </object>
-  <object id="20" name="TileData" x="192" y="336" width="16" height="16">
-   <properties>
-    <property name="Action" value="Starpoint 4"/>
-   </properties>
-  </object>
-  <object id="21" name="TileData" x="192" y="352" width="16" height="16">
-   <properties>
-    <property name="Action" value="Message &quot;SamHouse.12&quot;"/>
-   </properties>
-  </object>
  </objectgroup>
  <layer id="5" name="Front" width="25" height="25">
   <data encoding="base64" compression="zlib">
-   eJy1VT0zQ0EU3V1JY5QKLUNjdEaRMjLRGR8F4qOIMCONIRUlUUUKgyaZURCDiV9Ah6Gl1NL6E86dt+tt1r6PjTgzZ/bet3vveXd373ucMSbALgcmQO7AfnAA/GQ+dNuGQXDIQSMt4wT3c+h2EB4d6lIab3COYuRup650cGgkTpKMnSY9OxtDowLnEKy2WUuURhHGJjgFTv6ThsKXJf8leBXBa/AmROMcfACfDb5IDbo/CWnTepdeUnHUH8PSTuP8ahjrzD/LY4wjzLs3+to5CC4YdY/Cz4Hz8rmKo72axrMZcBa8g3+vxb3LMct+38EdmWscxWWEZ+8aunrctjHHRatPe/ak+RuYLwqvr1YxFsC6zJHFOKFsqfFKa42cOprC2zPav1Twsh8UkH/N0AjDLfJXNP0cuB4RU0b+AwcNG3rBRsy1SqMZsk8mqF/KMi6TDF97xn2Njxi9R++dku/FZNwy4lZk7CLGJS1PLcZe0Vw38/uJ7hSdBd2vnpA4Wx5au4W9Kgn7HPXlGG/tSZqj78MFi/eNoTxV5G8EaBD6LH3lAlvNJR69jy7Qa1b3Ub87eerjP9ahQ723+heQvwdjv4MaeebVU5a+7VzVObYL/b/SSXwDlzJezA==
+   eJy1Vb1OwzAQPpvmDXgBECyIF2AsVUbEz8ZYEBJdEPQNoIKhdEDAUiQGKAJUngA2QGWFkRVWXoLvFJu4IY7tqvmkTz7Hd/5y53MiiEiCEwGsgCKAU+A0+E0pTDsPM+BsgEZVxUmR7mHaNrwE5KU1PjA58dh7lLyq9lAnziKi8yixYw+NNibHYGfEXFwaDRg74DK45KHxk+Pjk4ct9ga8dfAOvC/QuAKfwUGGb0qD+6eibPYPuUs6ju/HnLKrOL8uxgtKz/IU4zwlfWP6+kDHca1W8IKr4Br4iPmT4fepxpjsPbiI5Goyf82M28uchcjEcM1ejfk21hsyuVcbGDcN/0M8OxLDGu/sa3kPRl8mNWMs2N3+UGfdjEYRHrB/29BfB7ccMfvY/yBAIw+TYM/TV2v0C+qUBd+XloqrRcW+lyLV+Aq4ey217sq/61Gr2LGHb421xi5q1ZT/14rA34dr8vvGsEYH+/cCNUKQl3NTjFfDzFn3o+6dMqBz0v+CMlCn4f4sA+Z/ZZz4BVutTwQ=
   </data>
  </layer>
  <objectgroup id="6" name="Front" visible="0"/>
