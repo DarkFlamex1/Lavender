@@ -1,0 +1,13 @@
+{
+  "Name": "LavenderNPC_Tess",
+  "Author": "BlueberryHead",
+  "Description": "Thanks to MissCoriel's NPC Creator! -=Created with MissCoriel's NPC Creator=-",
+  "Version": "1.0.0",
+  "UniqueID": "Blueberry.LavenderTess",
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+  "UpdateKeys": [
+    "Nexus: "
+  ]
+}

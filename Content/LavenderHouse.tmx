@@ -10,13 +10,13 @@
   <property name="Warp" value="4 24 Town 10 86"/>
  </properties>
  <tileset firstgid="1" name="1" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
-  <image source="townInterior.es-ES.png" width="512" height="1088"/>
+  <image source="../../StardewData/townInterior.es-ES.png" width="512" height="1088"/>
  </tileset>
- <tileset firstgid="2177" name="2" tilewidth="16" tileheight="16" tilecount="128" columns="32">
-  <image source="townInterior_2.png" width="512" height="64"/>
+ <tileset firstgid="2177" name="2" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source="../../StardewData/townInterior_2.png" width="512" height="64"/>
  </tileset>
- <tileset firstgid="2305" name="p" tilewidth="16" tileheight="16" tilecount="32" columns="4">
-  <image source="paths" width="64" height="128"/>
+ <tileset firstgid="4353" name="p" tilewidth="16" tileheight="16" tilecount="32" columns="4">
+  <image source="../../StardewData/paths.png" width="64" height="128"/>
  </tileset>
  <layer id="1" name="Back" width="25" height="25">
   <data encoding="base64" compression="zlib">
@@ -26,7 +26,7 @@
  <objectgroup id="2" name="Back"/>
  <layer id="3" name="Buildings" width="25" height="25">
   <data encoding="base64" compression="zlib">
-   eJy1lLtOgjEUx9sCkyZe38BBR28JRCcwGKPsoE7eGJSdmy6wiHFQjL6BizoYN00cXT70EXwBHPQR/DdtQ2m+Wz/CSX5t056e/9fTno8SQmgAg5gZZ4oRMs3EeMaHKDoZOV5C/GWpsYJ+FawRd2w19sEByCNmAWyDHbDLxHwQYTQa4A+DMmJWQBXUQJ1ZfrCPxrBNaTxg8AiehiDKQ7bQOKADPoekoWzEJf9BtROWuwQhNwYpqZEEt4meppuvF3yf0tgEWwYFGTMPctq53Hy9yGnnOAYnYBy5mgCTYE7mrQxKmobyDUNJ07gA1xjMI+4CWAQb2t1cypylpC+3c6y3mKirBvomeJOXe4S+SMU+pfHLfX3qzWEiZwVvF09TGmMx5Cnm7tNB/C4TOauAKrgPiJtG0Azt14j6bTa+jsV/SX/zHwFC77Tn2w1Ze+b8KZozuVBDX9c0XzH+pv17Rw0dtabXJL+LJImWqyvEb3touNWk7X+E2zPivxgaWbmeRbNOxZviVrY4g25mntrau1P1NBsXc19xew39TGk5l9XWTPuJoKHbnuybmu4harNo1OcgGtSl97vHsPYPm5hP6Q==
+   eJy1lLtOgjEUx9sCkyZe30ATHb0lEJ3AYIyygzp5Y1B2brrAIsYBMfoGLupg3DRxdAF9BF8AB30E/03bUJp+V8JJfm3Tnp7/19OejxJCqAeDmBlnihEyzcR4xoUwOik5Xkb8Famxin4NrBM7QTUOwCHIImYO7IBdsMfEvBezPjRq4A+DImKWQBlUQJUF/GAXjWGb0njA4BE8DUGUh2ygaYMO+ByShrIRS/69ascvdzFCbgwSUiMObmM9TZuvE3yf0tgC2wY5GTMLMtq5bL5OZLRznIBTMI5cTYBJMC/zVgQFTUP5+qGgaVyCawwWEHcRLIFN7W6uZM4S0pfbBdYbTNRVDX0dvMnLPUafp2Kf0vjlvi711mYiZzlnF0dTGmMR5Cli9+kgfpeJnJVAGdx7xE0iaIr2a4T9tiC+7QD/Jf3Nf3gIvdOeb9dn7ZnzZ2jO5UIFfVXTfMX4m/bvHTV01Jpek/wu4iRcrpqI33LQsNVk0P8It2fEfzE00nI9jWaDijfFrRjgDLqZeWpp707V01xUzH1Fg2voZ0rKubS2ZtpPCA3d9mVf13SPUJt5oz4H0aCW3u0e/do/x3dQDQ==
   </data>
  </layer>
  <objectgroup id="4" name="Buildings">
@@ -134,7 +134,7 @@
  <objectgroup id="6" name="Front" visible="0"/>
  <layer id="7" name="Paths" width="25" height="25" visible="0">
   <data encoding="base64" compression="zlib">
-   eJztVIsKwyAMrGudyf//cCcscL1FZ4psg/VAtHl4SZq4LBfOQvW4/xqkE9ftobvDEtgRmBuezT+DX10r2BSqT/2u5zJYr0J+LPdyTBTXu7Xp0Y/lCCGb/IH/Plqrf+WQRl/MAverx8GzlJ/9arGZvjePOCseB8sS9bjXrwbR15nw5sO7I1pTtOeZWht3oc/IW9qLqaWL5tGLw7tL6C0cwZk8ovg2x2gtohzW0xqod5QDkSbyzMYOijYHTg==
+   eJztVO0OwiAMHE6k+8n7v6yS2OR2FmwXoibzEgLrB9d2Lcvyx1Fsdb//GmQQ1+Whu8ES2BGYG57VP4NfWyvYFKpP+27n4qxXIT+WWzkmiuvduta9H8sRQjb5A//dW6uzckinL2aB+9Xi4FnKz37V2FQ/mkecFYuDZYl63OpXhdTXmbDmw7ojWlO055laO3ehj+ctHcXU00XzGMVh3SX0FnpwJI8ovs3hrUWUQ3t6C9Q7yoFIE3lm4w6gIwse
   </data>
  </layer>
  <objectgroup id="8" name="Paths" visible="0"/>

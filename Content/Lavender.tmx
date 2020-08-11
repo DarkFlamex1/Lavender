@@ -8,10 +8,10 @@
   <property name="Warp" value="60 15 Town 0 68 60 16 Town 0 69"/>
  </properties>
  <tileset firstgid="1" name="Paths" tilewidth="16" tileheight="16" tilecount="32" columns="4">
-  <image source="paths.png" width="64" height="128"/>
+  <image source="../../StardewData/paths.png" width="64" height="128"/>
  </tileset>
  <tileset firstgid="33" name="untitled tile sheet" tilewidth="16" tileheight="16" tilecount="1975" columns="25">
-  <image source="spring_outdoorsTileSheet.es-ES.png" width="400" height="1264"/>
+  <image source="../../StardewData/spring_outdoorsTileSheet.es-ES.png" width="400" height="1264"/>
   <tile id="150">
    <properties>
     <property name="Spawnable" value="t"/>
@@ -1347,7 +1347,7 @@
  <objectgroup id="6" name="Front"/>
  <layer id="7" name="Paths" width="60" height="32">
   <data encoding="base64" compression="zlib">
-   eJztmF0OgCAMg72Gcv97+kRCyEZkVFdJvyf/VuaUVTkOIcQuXKBrWooRYx17Om4BaPX0mqt6nm6/74EaP0r2+BZv5/T02XxJVk6MtRDzIPpujYucywDhB5VWZ+U+2WrEAqPPRDmzEwCBuo9d6iH2gb0P1/yQ/2GMPdbzVWsb5cFCiHnk43N4PSq6FvQHRh7D6D+CD9R8yJpXkfd8ZW7Mxo76+EjLilutcY1vta3vPG/NX3BwAzscBs0=
+   eJztmNEKwCAIRfuNrf//zz0JESqURndyz9MYy1TUu2qNEFKFN+mbE8i+fXrfW9yn2eatGLm/zWmf5hpAANEn8h/mntmdlV4dotVohh4Io51InGg5QgFRZ3Z5bjuQRFYcVfJB6oA+h8W/zHMY4oy1dFV7ztJgQsg61PE1rBml3VtVwdMYRP0heGT1w62+2qnzSG+srvXmuGdLWxfNsawfbWv/edadP8HgA/YTBhI=
   </data>
  </layer>
  <objectgroup id="8" name="Paths"/>

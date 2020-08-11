@@ -1,0 +1,51 @@
+{
+  "Format": "1.10.0",
+  "Changes": [
+    {
+      "LogName": "NPC Manifestation",
+      "Action": "EditData",
+      "Target": "Data/NPCDispositions",
+      "FromFile": null,
+      "Entries": {
+        "Tess": "adult/polite/outgoing/positive/female/non-datable/Vikram/Town/summer 11//LavenderHouse 4 16/Tess"
+      }
+    },
+    {
+      "LogName": "NPC Gift Tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "FromFile": null,
+      "Entries": {
+        "Tess": "OOh my god! I've wanted this forever! Thank You sooo much!!!//This is great thank you so much!//Woah, that's cool thank you!//I really appreciate this gift!//I really appreciate this gift!/ "
+      }
+    },
+    {
+      "LogName": "NPC Sprite",
+      "Action": "Load",
+      "Target": "Characters/Tess",
+      "FromFile": "assets/img/Tess.png",
+      "Entries": null
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Tess",
+      "FromFile": "assets/dialogue/Dialogue.json",
+      "Entries": null
+    },
+    {
+      "LogName": "NPC Portrait",
+      "Action": "Load",
+      "Target": "Portraits/Tess",
+      "FromFile": "assets/img/portrait.png",
+      "Entries": null
+    },
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/Tess",
+      "FromFile": "assets/schedules/Schedule.json",
+      "Entries": null
+    }
+  ]
+}
